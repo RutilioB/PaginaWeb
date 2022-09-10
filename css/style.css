@@ -1,0 +1,154 @@
+body{
+    background-color: #D28949;
+}
+h1 {
+    text-align: center;
+    color: #000000;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background-color: rgb(72, 209, 204);
+    text-align: center;
+}
+@media (min-width : 750px){
+    header {
+        text-align: left;
+    }
+}
+.borrar-accesorios {
+    background-color: rgb(243, 247, 247);
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(71, 71, 71)
+}
+ul {
+    list-style: none;
+}
+.hero {
+    background-image: url(../img/dog.png);
+    height: 400px;
+}
+.encabezado {
+    margin: 30px 0;
+    color: rgb(0, 0, 0);
+}
+.submenu {
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background: rgb(72, 209, 204);
+    padding: 20px;
+}
+.vacio {
+    padding: 10px;
+    background-color: #fbaf32;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(0, 0, 0)
+}
+.button {
+    background-color: #fbaf32;
+    color: rgb(2, 2, 2)
+}
+.contenido.hero {
+    margin-top: 88px;
+    color: white;
+}
+.contenido.hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenido.hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido.hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/2311526.png)
+    
+}
+.barra {
+    padding: 20px 0;
+    background: rgb(72, 209, 204);
+    background: -webkit-linear-gradient(left, #D28949 0%,#1a8aca 100%);
+}
+.barra p {
+    margin: 0;
+    color: white;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+.icono1 {
+    background-image: url(../img/3047928.png);
+}
+#accesorios .row {
+    margin-bottom: 20px;
+}
+.agregar-carrito{
+    margin: 10px;
+}
+.card {
+    text-align: center;
+    border: 1px solid rgba(255, 250, 250, 0.05);
+    background: #D28949;
+}
+@media (min-width:550px){
+    .card {
+        text-align: left;
+    }
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    background: #fcfeff;
+}
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
